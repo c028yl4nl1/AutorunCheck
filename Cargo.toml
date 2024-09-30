@@ -1,0 +1,15 @@
+[package]
+name = "FtpProject"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ftp = "3.0.1"
+prettytable = "0.10.0"
+colored = "2.0"
+rayon = "*"
+mysql = "25.0.1"
+mongodb = { version = "2.7", features = ["tokio-runtime"] }
+tokio = { version = "1", features = ["full"] }
+clap = "4.5.18"
+reqwest ={version = "*" , features = ["blocking"]}
